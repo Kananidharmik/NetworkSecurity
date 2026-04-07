@@ -4,6 +4,7 @@
 from setuptools import setup, find_packages
 from typing import List
 
+
 def get_requirements()->list[str]:
     '''This function reads the requirements.txt file and returns a list of requirements'''
     
