@@ -1,0 +1,23 @@
+artifact_path: file:///D:/STD/Python/Data_Science/Udemy/1/Code/49 End-to-End 2.0/mlruns/0/models/m-f2c1c7062f5a4079a829460e125bffac/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-f2c1c7062f5a4079a829460e125bffac
+model_size_bytes: 13245119
+model_uuid: m-f2c1c7062f5a4079a829460e125bffac
+prompts: null
+run_id: f750f524ecc240a9a05ee47755fc66f4
+utc_time_created: '2026-04-16 10:12:55.496968'
